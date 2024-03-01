@@ -1,7 +1,9 @@
 // Retrieve tasks and nextId from localStorage
-let taskList = JSON.parse(localStorage.getItem("tasks"));
-let nextId = JSON.parse(localStorage.getItem("nextId"));
-const addTaskBtn = document.querySelector('#addTaskBtn')
+
+// The pre-given variables were not needed for the task board to function. Hence commented out.
+
+// let taskList = JSON.parse(localStorage.getItem("tasks"));
+// let nextId = JSON.parse(localStorage.getItem("nextId"));
 
 // Todo: create a function to generate a unique task id
 function generateTaskId() {
